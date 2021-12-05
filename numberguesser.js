@@ -9,12 +9,11 @@ function myFunction(){
     document.getElementById("guessdisplay").innerHTML = `Took you ${c1} guesses`
     document.getElementById("count").style.display="none";
   }
-  else{
-    if (v>num) {
+  else if (v>num) {
       document.getElementById("guess").innerHTML = "you guessed: too high"
     }
     else{
       document.getElementById("guess").innerHTML = "you guessed: too low"
     }
-  }
+  
 }
