@@ -1,5 +1,4 @@
 var num = Math.floor((Math.random() * 100) + 1);
-console.log(num)
 var c1 = 0
 function myFunction(){
   c1 = c1+1
