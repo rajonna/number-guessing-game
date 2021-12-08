@@ -34,7 +34,9 @@ input{
 
 @media (max-width: 500px){
   .header{
-    width: 400px;
+    width: 500px;
     font-size: 15px
     }
+  .input{
+    width: 200px;
 
