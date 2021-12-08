@@ -31,6 +31,10 @@ input{
   background-color: rgb(85, 125, 185);
   color: rgb(255, 255, 255);
 }
-#guess{
-  
-}
+
+@media (max-width: 500px){
+  .header{
+    width: 300px;
+    font-size: 12px
+    }
+
